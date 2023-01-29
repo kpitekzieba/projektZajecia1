@@ -8,15 +8,19 @@
 }
 
 /* Body */
-body {
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
+
+
+body{
+    margin: 0;
+    font-size: 16px;
+     font-family: 'Raleway', sans-serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+
 }
 
 /* Container */
@@ -30,10 +34,14 @@ img {
 
 /* Header */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(17, 159, 4);
+
 }
 
 /* Brand */
@@ -62,10 +70,12 @@ nav ul li a {
   text-decoration: none;
 }
 
+
 nav ul li a:hover {
   background-color: rgb(56, 213, 24);
   color: rgb(255, 255, 255, 1);
-}
+
+
 
 /* Slider */
 .slider img {
@@ -78,9 +88,12 @@ main {
 }
 
 /* Article */
-article {
-  width: 70%;
-  padding: 30px;
+
+article{
+    width: 70%;
+    padding: 30px;
+    background-color: rgba(238, 249, 238, 0.884)
+
 }
 
 article img {
@@ -88,15 +101,19 @@ article img {
 }
 
 /* Aside */
-aside {
-  width: 30%;
-  padding: 20px;
-  background-color: lightgray;
-  border-left: 1px dashed black;
-}
+
 
 .widget {
   margin-bottom: 50px;
+
+aside{
+    width: 30%;
+    padding: 20px;
+
+    background-color: rgb(207, 251, 203);
+
+    border-left: 1px dashed black;
+
 }
 
 .widget img {
@@ -112,11 +129,13 @@ aside {
 
 /* Links */
 
+
 .links ul {
   list-style-type: square;
   padding-left: 18px;
   margin: 0;
   list-style: none;
+
 }
 
 .links ul li {
@@ -135,6 +154,7 @@ a:hover {
 }
 /* Footer */
 
+
 footer {
   background-color: lightgray;
   border-top: 1px solid black;
@@ -146,3 +166,17 @@ footer p {
   margin: 0;
   text-shadow: 2px 2px darkgray;
 }
+
+footer{
+    background-color: rgb(17, 159, 4);
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p{
+    margin:0;
+
+    text-shadow: 2px 2px rgb(199, 132, 132);
+}
+
