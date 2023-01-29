@@ -11,13 +11,13 @@
 body{
     margin: 0;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
-
+     font-family: 'Raleway', sans-serif;
 }
 
 img{
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 /* Container */
@@ -94,7 +94,9 @@ article img{
 aside{
     width: 30%;
     padding: 20px;
+
     background-color: rgb(207, 251, 203);
+
     border-left: 1px dashed black;
 }
 
@@ -115,6 +117,7 @@ aside{
     list-style-type: square;
     padding-left: 18px;
     margin: 0;
+    
 }
 
 .links ul li{
@@ -132,5 +135,6 @@ footer{
 
 footer p{
     margin:0;
+
     text-shadow: 2px 2px rgb(199, 132, 132);
 }
