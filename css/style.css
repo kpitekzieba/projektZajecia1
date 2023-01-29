@@ -114,6 +114,7 @@ aside{
     list-style-type: square;
     padding-left: 18px;
     margin: 0;
+    
 }
 
 .links ul li{
@@ -131,5 +132,5 @@ footer{
 
 footer p{
     margin:0;
-    text-shadow: 2px 2px darkgray;
+    
 }
